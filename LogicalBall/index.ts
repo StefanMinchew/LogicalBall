@@ -3,7 +3,6 @@ function getRandomInt(max) {
 }
 
 // generate balls
-class Balls {
      function generateBalls() {
     const numberOfBalls = 7;
     let balls = [];
@@ -20,7 +19,6 @@ class Balls {
 }
 
 // Scale if left(X) or right(Y) side is heavier
-class Scales {
   function scale(balls, X, Y) {
     console.log("Reshenie:");
     console.log("Postavih ", X.length, "topcheta ot lqvo ", X);
@@ -61,8 +59,8 @@ let balls = generateBalls();
 console.log("Generirah 7 topcheta!");
 
 console.log("Po tejkoto topche e ", randomHeavyBall);
-let chosenLeftBalls:number[] = [];
-let chosenRightBalls:number[] = [];
+let chosenLeftBalls = [];
+let chosenRightBalls = [];
 
 const ballsToAddToScale = 3;
 console.log("Postaweni topcheta otlqwo", ballsToAddToScale, "Postaweni topcheta otdqsno", ballsToAddToScale);
